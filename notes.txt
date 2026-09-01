@@ -1,0 +1,23 @@
+這個專題旨在實作RISC-V 32-bit base integer instruction set
+
+一些專有名詞說明：
+RTL = Register Transfer Level
+所以用 verilog 描述
+Register
+MUX
+ALU
+decoder
+controller
+
+這些 hardware design source files 通常放在：
+
+rtl/
+
+所以之後：
+
+rtl/
+├── alu.v
+├── register_file.v
+├── pc.v
+├── decoder.v
+└── cpu.v
